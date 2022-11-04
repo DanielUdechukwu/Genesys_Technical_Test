@@ -10,7 +10,7 @@ body{
 }
 
 .btn2{
-  background: #d09224 !important;
+  background: #f3bb55 !important;
 }
 
 .btn2:hover{
@@ -19,7 +19,7 @@ body{
 }
 
 .bg-primary{
-  background: #d09224 !important;
+  background: #f3bb55 !important;
   border: .1rem solid #f3bb55 !important;
 }
 
@@ -46,7 +46,7 @@ body{
 }
 
 .icon-gold{
-  color: #d09224;
+  color: #f0ae35;
 }
 
 #intro{
