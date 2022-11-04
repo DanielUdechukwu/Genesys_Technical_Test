@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Roboto+Slab:wght@400;500;600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Roboto Slab';
+}
+
+.btn2{
+  background: #f3bb55 !important;
+}
+
+.btn2:hover{
+  background: #f0ae35 !important;
+  transition: all ease-in-out .2s;
+}
+
+.bg-primary{
+  background: #f3bb55 !important;
+  border: .1rem solid #f3bb55 !important;
+}
+
+.bg-primary:hover{
+  background: #f0ae35 !important;
+}
+
+.btn-border{
+  border: .1rem solid #f3bb55 !important;
+  color: gray;
+}
+
+.btn-border:hover{
+  background: #f3bb55 !important;
+}
+
+.logo{
+  width: 15%;
+}
+
+.footer-logo{
+  width: 80%;
+  margin-bottom: 1rem;
+}
+
+.icon-gold{
+  color: #f0ae35;
+}
+
+#intro{
+  /* background-image: url('../img/bg.jpg'); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.testimonial-box{
+  position: relative;
+}
+.testimonial-item img{
+  position: absolute;
+  left: -48px;
+  top: 20px;
+}
+
+.fnt{
+  font-size: 4rem !important;
+}
+
+.fnt-sub{
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.fnt-mini{
+  font-size: 1.8rem;
+}
+
+.custom-group{
+  width: 35%;
+  display: flex;
+}
+
+input{
+  height: 3.2rem !important;
+  outline: none !important;
+}
+
+.btnn{
+  width: 40%;
+  border-radius: .3rem;
+  border: none;
+}
+
+#services .row{
+  margin-bottom: 8rem;
+}
+
+.img-small{
+  width: 80%;
+}
+
+.icon-small{
+  width: 20%;
+}
+
+.accordion-button:not(.collapsed){
+  background-color: #fae6c2;
+  color: #3f484a;
+}
+
+@media (max-width: 500px){
+  .custom-group{
+    display: block;
+    width: 80% !important;
+  }
+
+  .sign-up button{
+    font-size: 1rem !important;
+    padding: 1rem !important;
+  }
+}
+
+@media (max-width: 767px){
+  .logo{
+    width: 30%;
+  }
+  .fnt{
+    width: 100% !important;
+    font-size: 2.9rem !important;
+  }
+
+  .intro p{
+    width: 100% !important;
+    font-size: 1rem !important;
+  }
+
+  .custom-group{
+    display: block;
+  }
+
+  .btnn{
+    width: 100%;
+    margin-top: 1rem;
+    padding: .8rem 0;
+  }
+
+  .img-small{
+    width: 100%;
+  }
+
+  .quote{
+    width: 100% !important  ;
+  }
+
+  .fnt-sub{
+    font-size: 1.9rem;
+  }
+
+  .fnt-mini{
+    font-size: 1.2rem;
+  }
+
+  .service-hours p{
+    width: 100% !important;
+    margin-top: 4rem !important;
+  }
+
+  .features h2{
+    font-size: 2.5rem;
+  }
+
+  .pricing p{
+    width: 100% !important;
+  }
+}
+
+@media (min-width: 768px){
+  .login{
+    width: 50% !important;
+  }
+
+  .sign-up button{
+    font-size: 1rem !important;
+    padding: 1rem !important;
+  }
+}
